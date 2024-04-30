@@ -22,15 +22,16 @@ public class Ejercicio03 {
 				+ "era un agujero-hobbit, y eso significa comodidad";
 
 		for (char letra : texto.toCharArray()) {
-			if(Character.isLetter(letra)) {
-			letra = Character.toLowerCase(letra);
-			mapa.put(letra, mapa.getOrDefault(letra, 0) + 1);
-		}}
-		
+			if (Character.isLetter(letra)) {
+				letra = Character.toLowerCase(letra);
+				mapa.put(letra, mapa.getOrDefault(letra, 0) + 1);
+			}
+		}
+
 		System.out.println(mapa);
-		
+
 		for (Map.Entry<Character, Integer> entry : mapa.entrySet()) {
-			System.out.println(entry.getKey() + ": ");
+			System.out.println(entry.getKey() + ": " + entry.getValue());
 		}
 	}
 
