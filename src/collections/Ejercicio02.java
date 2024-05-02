@@ -2,6 +2,7 @@ package collections;
 
 import java.util.LinkedHashSet;
 import java.util.Random;
+import java.util.Set;
 
 /**
  * Clase que representa el Ejercicio02
@@ -11,7 +12,7 @@ public class Ejercicio02 {
 	public static void main(String[] args) {
 
 		// Creamos una serie de tipo Enteros
-		LinkedHashSet<Integer> serie = new LinkedHashSet<Integer>();
+		Set<Integer> serie = new LinkedHashSet<Integer>();
 		// Creamos un objeto de tipo Random
 		Random r = new Random();
 		
