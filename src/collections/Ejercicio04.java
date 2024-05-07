@@ -19,7 +19,7 @@ public class Ejercicio04 {
 		String nombre = "";
 
 		// Creamos una lista de tipo String
-		List<String> nombres = new ArrayList<String>();
+		List<String> nombres = new ArrayList<>();
 
 		// Le pedimos al usuario que escriba 5 nombres
 		System.out.println("Escribe 5 nombres:");

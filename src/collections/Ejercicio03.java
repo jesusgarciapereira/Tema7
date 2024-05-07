@@ -11,7 +11,7 @@ public class Ejercicio03 {
 	public static void main(String[] args) {
 
 		// Creamos un diccionario de tipo Caracter, Entero
-		Map<Character, Integer> diccionario = new TreeMap<Character, Integer>();
+		Map<Character, Integer> diccionario = new TreeMap<>();
 
 		// Cadena de texto
 		String texto = "En un agujero en el suelo, vivia un hobbit. "

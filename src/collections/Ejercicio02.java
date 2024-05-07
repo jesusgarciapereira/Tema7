@@ -12,7 +12,7 @@ public class Ejercicio02 {
 	public static void main(String[] args) {
 
 		// Creamos una serie de tipo Enteros
-		Set<Integer> serie = new LinkedHashSet<Integer>();
+		Set<Integer> serie = new LinkedHashSet<>();
 		// Creamos un objeto de tipo Random
 		Random r = new Random();
 		
