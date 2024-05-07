@@ -19,7 +19,7 @@ public class Ejercicio02 {
 		// Mientras el tamaño de la serie sea menor que 10
 		while (serie.size() < 10) {
 			// Generamos un número aleatorio entre 1 y 20
-			int aleatorio = r.nextInt(20) + 1;
+			int aleatorio = r.nextInt(1,21);
 			// Si el número generado no está, lo añadimos a la serie  
 			serie.add(aleatorio);
 

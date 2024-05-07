@@ -22,7 +22,7 @@ public class Ejercicio01 {
 		// La mostramos
 		System.out.println(lista);
 		
-		// Llamamos al método shuffle() para desordenarla
+		// Llamamos al método shuffle() de la clase Collections para desordenarla
 		Collections.shuffle(lista);
 		
 		// La mostramos desordenada
